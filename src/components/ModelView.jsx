@@ -14,7 +14,6 @@ function ModelView() {
          whiteImg ,
          blackImg,
     ])
-
     return (
         <div className='w-screen max-h-screen mb-8 bg-black'>
             <div className="max-screen-width h-full flex flex-col justify-between items-start pt-8">
