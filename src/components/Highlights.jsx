@@ -36,7 +36,7 @@ function Highlights() {
     return (
         <section id="highlights" className='relative w-screen pt-6 bg-zinc-950 '>
             <div className="max-screen-width  highlights-text-container">
-                <div className="highlightsTexts relative w-full max-md:h-24 h-14 flex-between flex-wrap gap-6">
+                <div className="highlightsTexts relative w-full max-md:h-32 h-14 flex-between flex-wrap gap-6">
                     <div id="title" className="text-5xl text-white opacity-80 ">Get the highlights</div>
                     <div className="flex-center gap-6 text-md">
                         <div className="link-blue">
