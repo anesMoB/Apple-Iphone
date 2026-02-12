@@ -33,7 +33,7 @@ function Hero() {
     }
         , [])
     return (
-        <section className="w-full nav-height flex-center-col">
+        <section className="w-full h-full nav-height flex-center-col">
             <div className="w-5/6 flex-center-col gap-3 ">
                 <h1 id="heroText" className="text-4xl max-md:text-3xl font-bold opacity-70 text-orange-100">{heroText[0]}</h1>
                <div className="w-10/12 max-md:w-10/12 max-md:h-8/12">
