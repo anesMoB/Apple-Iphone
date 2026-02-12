@@ -1,0 +1,14 @@
+nav img{
+    cursor: pointer;
+}
+nav img:hover{
+    opacity: 80%;
+    cursor: pointer;
+}
+nav .navMenu{
+    filter: invert();
+}
+.link-blue p:hover{
+    opacity: 0.7;
+
+}

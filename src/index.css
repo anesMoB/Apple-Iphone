@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+/*
+use this before tailwind v4 (v3)
+also tailwind.config.js in no longer be used -by default-
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+@layer utilities {
+  .flex-center {
+    @apply flex items-center justify-center
+  }
+}
+  */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+  overflow-x:hidden
+}
+
+.max-screen-width {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  position: relative;
+  max-width: 1440px;
+  
+}
+
+@layer utility {
+
+  .flex-center {
+    @apply flex flex-row justify-center items-center;
+  }
+
+  .flex-center-col {
+    @apply flex flex-col justify-center items-center;
+  }
+
+  .flex-between {
+    @apply flex flex-row justify-between items-center;
+  }
+
+  .flex-between-col {
+    @apply flex flex-col justify-between items-center;
+  }
+
+  .nav-height {
+    @apply h-[calc(100vh-64px)]
+  }
+
+  .button-blue {
+    @apply px-3 py-1 bg-blue-500 border-blue-500 font-semibold rounded-4xl hover:cursor-pointer hover:bg-transparent border-2 transition-all ease-in-out
+  }
+  .link-blue {
+    @apply text-blue-400 font-semibold hover:cursor-pointer underline-offset-6 underline
+  }
+    .highlights-text-container {
+    @apply relative sm:w-[70vw] w-[90vw] 
+  }
+    .video-carousel_container {
+    @apply relative sm:w-[70vw] w-[88vw] md:h-[70vh] sm:h-[50vh] h-[35vh]
+  }
+
+}
