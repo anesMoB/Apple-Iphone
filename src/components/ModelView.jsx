@@ -16,7 +16,7 @@ function ModelView() {
     ])
 
     return (
-        <div className='w-screen max-h-screen bg-black'>
+        <div className='w-screen max-h-screen mb-8 bg-black'>
             <div className="max-screen-width h-full flex flex-col justify-between items-start pt-8">
                 <h1 className='text-white opacity-80 text-2xl md:text-4xl pl-8 '>Take a closer look.</h1>
                 <div className='w-full h-[78vh]'><IphoneModelView  color={color} modelSize={modelSize} texture={modelTexture}/></div>
